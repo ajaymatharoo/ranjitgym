@@ -1,0 +1,264 @@
+html,body {
+    overflow-x: hidden; 
+	font-family: Open Sans, Tahoma, serif;
+	height: 100%;
+  -webkit-overflow-scrolling: touch;
+}
+
+hr {
+	border: 1px solid #801515;
+	opacity: 0.5;
+}
+
+/* NAVBAR OR HEADER */
+
+    /* Styles go here       (copied from net)*/
+
+.navbar-default .navbar-brand {
+  padding: 0 1em;
+}
+#nav-wrapper {
+  float: left;
+  position: relative;
+  left: 50%;
+}
+.navbar-nav {
+  position: relative;
+  left: -50%;
+}
+@media (max-width: 767px){
+  .navbar-default .navbar-brand img {
+    height: 100%;
+    margin: 3px 0 1px 1px;
+  }
+  .navbar-default .navbar-brand {
+    padding: 0;
+  }
+  #nav-wrapper {
+    float: none;
+    position: static;
+  }
+  .navbar-nav {
+    position: static;
+  }
+}
+
+@media (max-width: 767px) {
+    .navbar-nav > li > a {
+    line-height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;}
+}
+
+                 /* (copied stuff ends here) */
+
+.nav li {
+	font-size: 18px;
+}
+
+ ul.nav a:hover { 
+    color: #801515 !important;
+	transition: 0.5s;
+} 
+    /*LOGO stuff*/
+	
+.mainlogo {
+	margin-top: -30px;
+	width: 190px;
+	height: 165px;
+	margin-left: 15px;
+}
+
+    /* for the little collapse button */
+.navbar-toggle {
+	background-color: #801515;
+	opacity: 0.9;
+	margin-right: 0px;
+}
+.icon-bar {
+	background-color: white !important;
+}
+
+    /* fix for small screen menu  */
+ 
+.navbar-fixed-top {
+    min-height: 100px;
+}
+
+.navbar-nav > li > a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 100px;
+}
+
+/*services*/
+
+#service {
+	background:url('../images/blackboard.jpg') no-repeat center center;
+}
+
+#service h2 {
+	color: white;
+    letter-spacing: 2px;
+	font-weight: lighter;
+    /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
+}
+ 
+#service .container-fluid {
+		 margin: -20px;
+}
+ 
+ .services .container-fluid {
+	 height: 500px;
+ }
+ 
+     /*images in services*/
+ 
+ .col-md-3 {
+	 margin-top: 90px;
+	 margin-bottom: 90px;
+ }
+ 
+ .service-image {
+	position: relative;
+	opacity: 0.9;
+}
+
+.text {
+	left: 0;
+	position: absolute;
+	text-align: center;
+	top: 100px;
+	width: 100%;	
+}
+ 
+.sauna {
+	top: 75px;
+}
+
+.carousel-inner h1 {
+	text-shadow: 2px 2px #303030;
+	opacity: 0.8;
+}
+
+/* slider */ 
+
+    /* for slider images to align center */
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+ 
+/* timings and contact us and about us */
+
+.col-md-6 {
+	text-align: center;
+	padding: 30px;
+}
+
+.container h2 {
+	text-align: center;
+}
+
+.container h1 {
+	text-align: center;
+}
+
+.container p {
+	text-align: center;
+	line-height: ;
+}
+
+.timings {
+	padding-bottom: 20px;
+}
+
+.contact {
+	padding-bottom: 20px;
+}
+
+.timings .container {
+	margin-top: 20px;
+}
+
+.gender {
+    opacity: 0.8;
+}
+
+/*MEMBERSHIP*/
+
+.fees {
+	width: 100%;
+}
+
+/*  map */
+#map {
+	margin-bottom: 20px;
+ }
+
+/*footer*/
+ 
+ .footer .container-fluid {
+	 background: #222222;
+ }
+ 
+ .footer .us {
+	 background: #222222;
+	 bottom: 0;
+	 position: absolute;
+	 width: 100%;
+ }
+ 
+ .footer p {
+	 text-align: right;
+	 padding: 15px 20px 22px 20px;
+	 height: 50px;
+	 color: #EEEEEE;
+	 font-size: 12px;
+	 opacity: 0.6;
+ }
+
+ .footer a,
+ a:hover,
+ a:focus,
+ a:after {
+ 	color: white;
+ 	text-decoration: none;
+ }
+ 
+/* something for hiding containers for different screen sizes (orginally 1026 for tablets 992 and for mobiles ie xs 767px)*/
+
+@media only screen and (max-width: 992px) {
+    .services {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #my-slider {
+        display: none;
+    }
+}
+
+ .clearfix {
+	 clear: both;
+ }
+
+/* NEW SHIT */
+
+.overlay {
+   background:transparent; 
+   position:relative; 
+   width:640px;
+   height:480px; /* your iframe height */
+   top:480px;  /* your iframe height */
+   margin-top:-480px;  /* your iframe height */
+}
+
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+	margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 7px;
+    margin-top: 7px;
+}
+                                                            
