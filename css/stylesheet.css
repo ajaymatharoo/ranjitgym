@@ -43,13 +43,6 @@ hr {
   }
 }
 
-@media (max-width: 767px) {
-    .navbar-nav > li > a {
-    line-height: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;}
-}
-
                  /* (copied stuff ends here) */
 
 .nav li {
@@ -90,7 +83,12 @@ hr {
     padding-bottom: 0px;
     line-height: 100px;
 }
-
+@media (max-width: 767px) {
+    .navbar-nav > li > a {
+    line-height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;}
+}
 /*services*/
 
 #service {
